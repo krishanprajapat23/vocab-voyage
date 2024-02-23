@@ -1,0 +1,34 @@
+//media query
+@include minMq(991px) {
+   
+}
+
+@include maxMq(991px) {
+    header {
+        .navbar-toggler {
+            padding-left: 0.35rem;
+            padding-right: 0.35rem;
+            color: $dark;
+            &:focus {
+                box-shadow: none;
+                border-color: none;
+            }
+        }
+
+    }
+
+}
+
+@include maxMq(567px) {
+    header {
+        
+    }
+
+}
+
+@include maxMq(425px) {
+    header {
+      
+    }
+
+}
